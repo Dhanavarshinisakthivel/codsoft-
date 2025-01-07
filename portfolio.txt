@@ -1,0 +1,137 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhanavarshini | Web Developer</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f1f1f1;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #00796b;
+            color: white;
+            text-align: center;
+            padding: 30px 0;
+        }
+        section {
+            margin: 50px auto;
+            width: 80%;
+        }
+        h2 {
+            color: #00796b;
+        }
+
+        /* Skills Section with Rectangular Blue Boxes */
+        .skills {
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+        }
+
+        .skills ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+        }
+
+        .skills ul li {
+            background-color: #00796b;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 8px;
+            font-weight: bold;
+            width: auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Projects Section with Rectangular Boxes */
+        .projects div {
+            background-color: white;
+            border: 2px solid #00796b;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .projects div h3 {
+            color: #00796b;
+        }
+
+        footer {
+            background-color: #00796b;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Dhanavarshini</h1>
+    <p>Web Developer | Web Designer | Creator</p>
+</header>
+
+<section class="about">
+    <h2>About Me</h2>
+    <p>Hi! I'm a passionate web developer with expertise in creating dynamic and responsive websites. I specialise in HTML, CSS, Javascript, and have experience working with various frameworks.</p>
+</section>
+
+<section class="skills">
+    <h2>Skills</h2>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+        <li>React</li>
+        <li>Node.js</li>
+        <li>Git & GitHub</li>
+    </ul>
+</section>
+
+<section class="projects">
+    <h2>Projects</h2>
+    <div>
+        <h3>Project 1: E-Commerce Website</h3>
+        <p>A dynamic e-commerce website built with React and Node.js</p>
+    </div>
+    <div>
+        <h3>Project 2: Portfolio Website</h3>
+        <p>A portfolio website showcasing my skills and projects</p>
+    </div>
+    <div>
+        <h3>Project 3: Task Management Tool</h3>
+        <p>A task management tool designed with Javascript and CSS</p>
+    </div>
+</section>
+
+<section class="resume">
+    <h2>Resume</h2>
+    <p><a href="path-to-your-resume.pdf" download>Download my resume</a></p>
+</section>
+
+<section class="contact">
+    <h2>Contact Me</h2>
+    <div>
+        <strong>Email:</strong> your-email@example.com
+    </div>
+    <div>
+        <strong>Phone:</strong> (123) 456-7890
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 Dhanavarshini. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
